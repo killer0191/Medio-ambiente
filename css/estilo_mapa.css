@@ -1,0 +1,36 @@
+/* Estilos para el mapa */
+#mapa {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#mapa img {
+  width: 100%;
+  height: auto;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.tooltip {
+  position: absolute;
+  display: none;
+  width: 200px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.tooltip:before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+}
