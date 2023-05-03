@@ -5,7 +5,13 @@
   <meta charset="UTF-8">
   <title>Cuidado del Medio Ambiente en Tabasco</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="css/estilo_index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-yLRszGSLZJB1pEGw7HNfCovmrrrmLyyvteBzOHVhF9mQq3Y8Zv5lx5hcw7SizhSSTNt7fNxR0N/lV7X4cN3q8Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="/css/estilo_index.css">
+  <script src="/js/slider.js"></script>
+  <script src="/js/busqueda_avanzada.js"></script>
 </head>
 
 <body>
@@ -17,46 +23,71 @@
     <nav>
       <ul>
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="#">Proyectos</a></li>
-        <li><a href="mapa/mapa.html">Mapa</a></li>
+        <li><a href="/proyectos.html">Proyectos</a></li>
+        <li><a href="/mapa/mapa.html">Mapa</a></li>
         <li><a href="ayuda.html">Ayuda</a></li>
       </ul>
     </nav>
+    <form class="search-form" action="#" method="get">
+      <input type="text" name="search" placeholder="Buscar...">
+      <button type="submit">Buscar</button>
+      <a href="#" class="advanced-search-link">Búsqueda avanzada</a>
+    </form>
   </header>
   <main>
-    <section class="hero">
-      <h2>Bienvenidos al sitio web para el cuidado del medio ambiente en Tabasco</h2>
-      <p>Te invitamos a conocer nuestros proyectos y noticias relacionados con el medio ambiente en nuestro estado.</p>
-      <a href="#" class="btn">Conoce más</a>
-    </section>
-    <section class="projects">
-      <h2>Nuestros Proyectos</h2>
-      <div class="project">
-        <img src="img/img1.jpg" alt="Proyecto 1">
-        <h3>Proyecto 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac turpis sed est consequat eleifend. Curabitur
-          in eleifend quam.</p>
-        <a href="#" class="btn">Leer más</a>
-      </div>
-      <div class="project">
-        <img src="img/img1.jpg" alt="Proyecto 2">
-        <h3>Proyecto 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac turpis sed est consequat eleifend. Curabitur
-          in eleifend quam.</p>
-        <a href="#" class="btn">Leer más</a>
-      </div>
-      <div class="project">
-        <img src="img/img1.jpg" alt="Proyecto 3">
-        <h3>Proyecto 3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac turpis sed est consequat eleifend. Curabitur
-          in eleifend quam.</p>
-        <a href="#" class="btn">Leer más</a>
-      </div>
-    </section>
+    <h1>Cuidado del Medio Ambiente</h1>
+
+    <div class="slider">
+      <img src="/img/img1.jpg" alt="Imagen 1">
+      <img src="/img/img1.jpg" alt="Imagen 2">
+      <img src="/img/img1.jpg" alt="Imagen 3">
+    </div>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada volutpat tortor, eu lacinia nunc
+      ultricies et. Donec at sapien euismod, rhoncus lorem nec, suscipit velit. Sed dictum, nibh non tincidunt feugiat,
+      est felis facilisis sapien, in maximus libero lectus a sapien. Sed dictum, nibh non tincidunt feugiat, est felis
+      facilisis sapien, in maximus libero lectus a sapien. </p>
+
+    <div class="imagen">
+      <img src="/img/img1.jpg" alt="Imagen 4">
+    </div>
+
+    <p>Integer congue ultricies ante quis malesuada. Integer bibendum odio sit amet ipsum efficitur venenatis. Fusce
+      auctor tortor sit amet magna malesuada, eu porttitor elit pharetra. Pellentesque id sapien consectetur, rhoncus
+      enim
+      eu, interdum nisi. Integer congue ultricies ante quis malesuada. Integer bibendum odio sit amet ipsum efficitur
+      venenatis. Fusce auctor tortor sit amet magna malesuada, eu porttitor elit pharetra. Pellentesque id sapien
+      consectetur, rhoncus enim eu, interdum nisi.</p>
+
+    <div class="imagen">
+      <img src="/img/img1.jpg" alt="Imagen 5">
+    </div>
+
+    <p>Nullam pellentesque risus sit amet sapien fringilla, nec varius sapien imperdiet. Sed malesuada faucibus leo, vel
+      euismod ex lobortis vitae. Praesent vel lectus eu lacus lobortis ultricies. Nullam pellentesque risus sit amet
+      sapien fringilla, nec varius sapien imperdiet. Sed malesuada faucibus leo, vel euismod ex lobortis vitae. Praesent
+      vel lectus eu lacus lobortis ultricies.</p>
   </main>
+
   <footer>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="/proyectos.html">Proyectos</a></li>
+        <li><a href="/mapa/mapa.html">Mapa</a></li>
+        <li><a href="/ayuda.html">Ayuda</a></li>
+      </ul>
+    </nav>
+    <div class="redes-sociales">
+      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i>facebook</a>
+      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i>twitter</a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i>instagram</a>
+      <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i>youtube</a>
+    </div>
     <p>Cuidado del Medio Ambiente en Tabasco &copy; 2023</p>
   </footer>
+
+
 </body>
 
 </html>

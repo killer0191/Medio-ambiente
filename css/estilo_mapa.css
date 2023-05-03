@@ -34,3 +34,28 @@
   border-style: solid;
   border-color: transparent transparent #fff transparent;
 }
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input[type="text"] {
+  padding: 8px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+.search-form button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+.search-form button[type="submit"]:hover {
+  background-color: #ccc;
+}

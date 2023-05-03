@@ -81,6 +81,9 @@ h1 {
 
 p {
   margin-bottom: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: justify;
 }
 
 button {
@@ -110,4 +113,120 @@ footer {
 footer p {
   margin: 0;
   font-size: 18px;
+}
+.redes-sociales a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.redes-sociales a:hover {
+  color: #0077b5;
+}
+
+.redes-sociales i {
+  transition: all 0.3s ease;
+}
+
+.redes-sociales .fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.redes-sociales .fa-twitter:hover {
+  color: #00aced;
+}
+
+.redes-sociales .fa-instagram:hover {
+  color: #e4405f;
+}
+
+.redes-sociales .fa-youtube:hover {
+  color: #cd201f;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slider .slides {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.slider .slides .slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider .slides .slide img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.slider .controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+}
+
+.slider .controls button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  color: #fff;
+  margin: 0 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.slider .controls button:hover {
+  color: #ccc;
+}
+
+.slider .controls button.disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input[type="text"] {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.search-form button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ccc;
+  color: #333;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #ddd;
+}
+
+.advanced-search-link {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: underline;
+  cursor: pointer;
 }

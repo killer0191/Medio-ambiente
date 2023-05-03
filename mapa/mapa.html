@@ -5,29 +5,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mapa Interactivo de Tabasco</title>
-  <link rel="stylesheet" href="../css/estilo_index.css">
-  <link rel="stylesheet" href="../css/estilo_mapa.css">
+  <link rel="stylesheet" href="/css/estilo_index.css">
+  <link rel="stylesheet" href="/css/estilo_mapa.css">
+  <script src="../js/busqueda_avanzada.js"></script>
 </head>
 
 <body>
   <header>
     <div class="logo">
       <img src="logo.png" alt="Logo del sitio web">
-      <h1>Cuidad del Medio Ambiente en Tabasco</h1>
+      <h1>Cuidado del Medio Ambiente en Tabasco</h1>
     </div>
     <nav>
       <ul>
         <li><a href="../index.html">Inicio</a></li>
-        <li><a href="#">Proyectos</a></li>
-        <li><a href="../mapa/mapa.html">Mapa</a></li>
+        <li><a href="../proyectos.html">Proyectos</a></li>
+        <li><a href="mapa.html">Mapa</a></li>
         <li><a href="../ayuda.html">Ayuda</a></li>
       </ul>
     </nav>
+    <form class="search-form" action="#" method="get">
+      <input type="text" name="search" placeholder="Buscar...">
+      <button type="submit">Buscar</button>
+      <a href="#" class="advanced-search-link">Búsqueda avanzada</a>
+    </form>
   </header>
   <main>
     <h2>Mapa Interactivo de Tabasco</h2>
     <div id="mapa">
-      <img src="../img/tabasco.jpg" alt="Mapa de Tabasco">
+      <img src="/img/tabasco.jpg" alt="Mapa de Tabasco">
       <div class="tooltip" id="tooltip1">Tooltip 1</div>
       <div class="tooltip" id="tooltip2">Tooltip 2</div>
       <div class="tooltip" id="tooltip3">Tooltip 3</div>
@@ -35,7 +41,21 @@
     </div>
   </main>
   <footer>
-    <p>© 2023 Cuidado del Medio Ambiente en Tabasco. Todos los derechos reservados.</p>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="/proyectos.html">Proyectos</a></li>
+        <li><a href="/mapa/mapa.html">Mapa</a></li>
+        <li><a href="/ayuda.html">Ayuda</a></li>
+      </ul>
+    </nav>
+    <div class="redes-sociales">
+      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i>facebook</a>
+      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i>twitter</a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i>instagram</a>
+      <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i>youtube</a>
+    </div>
+    <p>Cuidado del Medio Ambiente en Tabasco &copy; 2023</p>
   </footer>
   <script>
     var tooltip1 = document.getElementById("tooltip1");
