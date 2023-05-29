@@ -8,74 +8,180 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-yLRszGSLZJB1pEGw7HNfCovmrrrmLyyvteBzOHVhF9mQq3Y8Zv5lx5hcw7SizhSSTNt7fNxR0N/lV7X4cN3q8Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-  <link rel="stylesheet" href="css/estilo_index.css">
-  <script src="js/slider.js"></script>
-  <script src="js/busqueda_avanzada.js"></script>
+  <link rel="stylesheet" href="/css/estilo_index.css">
+  <link rel="shortcut icon" href="./img/logo.png">
+
+
+  <script src="./js/ventanas_emrgentes.js"></script>
 </head>
 
 <body>
   <header>
     <div class="logo">
-      <img src="logo.png" alt="Logo del sitio web">
+      <img src="./img/logoCF.png" alt="Logo del sitio web">
       <h1>Cuidado del Medio Ambiente en Tabasco</h1>
     </div>
     <nav>
       <ul>
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="proyectos.html">Proyectos</a></li>
-        <li><a href="mapa/mapa.html">Mapa</a></li>
+        <li><a href="/noticias.php">Noticias</a></li>
+        <li><a href="/mapa/mapa.html">Mapa</a></li>
         <li><a href="ayuda.html">Ayuda</a></li>
       </ul>
     </nav>
-    <form class="search-form" action="#" method="get">
+    <!--<form class="search-form" action="#" method="get">
       <input type="text" name="search" placeholder="Buscar...">
       <button type="submit">Buscar</button>
       <a href="#" class="advanced-search-link">Búsqueda avanzada</a>
-    </form>
+    </form>-->
+
+
+
   </header>
+  <div class="breadcrumbs">
+    <span class="current-page">Inicio</span>
+  </div>
   <main>
-    <h1>Cuidado del Medio Ambiente</h1>
+    <center>
+      <h1>Cuidado del Medio Ambiente</h1>
+    </center>
 
     <div class="slider">
-      <img src="img/img1.jpg" alt="Imagen 1">
-      <img src="img/img1.jpg" alt="Imagen 2">
-      <img src="img/img1.jpg" alt="Imagen 3">
+      <ul>
+        <li><img src="img/img1.jpg"></li>
+        <li><img src="img/img2.jpg"></li>
+        <li><img src="img/img3.jpg"></li>
+        <li><img src="img/img4.jpg"></li>
+      </ul>
     </div>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada volutpat tortor, eu lacinia nunc
-      ultricies et. Donec at sapien euismod, rhoncus lorem nec, suscipit velit. Sed dictum, nibh non tincidunt feugiat,
-      est felis facilisis sapien, in maximus libero lectus a sapien. Sed dictum, nibh non tincidunt feugiat, est felis
-      facilisis sapien, in maximus libero lectus a sapien. </p>
-
-    <div class="imagen">
-      <img src="img/img1.jpg" alt="Imagen 4">
-    </div>
-
-    <p>Integer congue ultricies ante quis malesuada. Integer bibendum odio sit amet ipsum efficitur venenatis. Fusce
-      auctor tortor sit amet magna malesuada, eu porttitor elit pharetra. Pellentesque id sapien consectetur, rhoncus
-      enim
-      eu, interdum nisi. Integer congue ultricies ante quis malesuada. Integer bibendum odio sit amet ipsum efficitur
-      venenatis. Fusce auctor tortor sit amet magna malesuada, eu porttitor elit pharetra. Pellentesque id sapien
-      consectetur, rhoncus enim eu, interdum nisi.</p>
-
-    <div class="imagen">
-      <img src="img/img1.jpg" alt="Imagen 5">
-    </div>
-
-    <p>Nullam pellentesque risus sit amet sapien fringilla, nec varius sapien imperdiet. Sed malesuada faucibus leo, vel
-      euismod ex lobortis vitae. Praesent vel lectus eu lacus lobortis ultricies. Nullam pellentesque risus sit amet
-      sapien fringilla, nec varius sapien imperdiet. Sed malesuada faucibus leo, vel euismod ex lobortis vitae. Praesent
-      vel lectus eu lacus lobortis ultricies.</p>
   </main>
+  <center>
+    <h1>Noticias</h1>
+  </center>
+  <section class="fichas">
+    <div class="ficha">
+      <img src="/img/logoPemex.jpg" alt="Imagen 1">
+      <h3>Acusan a Pemex de daño ecológico en lagunas de Comalcalco</h3>
+      <p>Habitantes de las comunidades Patastal y Pino Suárez señalan que debido a un derrame de petróleo, ya no se
+        puede
+        realizar la actividad pesquera en estos afluentes
+      </p>
+      <center><a href="./noticias.php" class="btn">Leer más</a></center>
+    </div>
+    <div class="ficha">
+      <img src="/img/petroleo.jpg" alt="Imagen 2">
+      <h3>Tabasco: un paraíso que el petróleo devora</h3>
+      <p>En Tabasco tierra de pantanos, manglares y comunidades a ras del golfo de México, la explotación de
+        hidrocarburos ha
+        acelerado los peores efectos del cambio climático. Esta industria está detrás del incremento de la temperatura
+        del
+        planeta y del nivel d</p>
+      <center><a href="./noticias.php" class="btn">Leer más</a></center>
+    </div>
+    <div class="ficha">
+      <img src="/img/predios.jpeg" alt="Imagen 3">
+      <h3>Denuncian contaminación en predios de Cárdenas; empresa no se hace responsable</h3>
+      <p>Habitantes de la ranchería Santuario segunda sección de Cárdenas, denunciaron que sus campos se han convertido
+        en
+        vertederos de aceite y petróleo, lo que ha causado daños a sus sembradíos e incluso, ha provocado muerte de
+        animales que
+        comen los pastizales</p>
+      <center><a href="./noticias.php" class="btn">Leer más</a></center>
+    </div>
+  </section>
+  <center>
+    <h1>Proyectos</h1>
+  </center>
+  <section class="fichas">
+    <div class="ficha">
+      <img src="./img/aire.jpg" alt="Imagen 1">
+      <h3>Programa de gestión para mejorar la calidad del aire del estado de tabasco</h3>
+      <p>La información disponible indica que en los municipios de Balancán, Centro, Centla, Huimanguillo y Paraíso
+        existen
+        problemas de calidad del aire por partículas suspendidas
+      </p>
+      <center><a href="./noticias.php" class="btn">Leer más</a></center>
+    </div>
+
+    <div class="ficha">
+      <img src="./img/agua.jpg" alt="Imagen 2">
+      <h3>URGE UN MANEJO SUSTENTABLE DEL AGUA DE TABASCO</h3>
+      <p>El documento presenta la situación que vive el manejo del agua en el mundo y el país pero el análisis se centra
+        en Tabasco, es decir; la infraestructura con que se cuenta; así como el beneficio que obtiene la población del
+        agua para su subsistencia.</p>
+      <center><a href="./noticias.php" class="btn">Leer más</a></center>
+    </div>
+    <div class="ficha">
+      <img src="./img/cambioC.png" alt="Imagen 3">
+      <h3>Programa de fortalecimiento y capacitación en los municipios en relación a capacidades y acciones de
+        adaptación ante el
+        cambio climático y vulnerabilidad en Tabasco.</h3>
+      <p>Esta iniciativa forma parte del proyecto denominado "Factibilidad de medidas de adaptación al cambio climático
+        en el
+        Estado de Tabasco", desarrollado por la Secretaría de Energía, Recursos Naturales y Protección Ambiental del
+        Estado de
+        Tabasco (SERNAPAM)</p>
+      <center><a href="./noticias.php" class="btn">Leer más</a></center>
+    </div>
+  </section>
+
+
+  <!--ventanas emergntes 
+  <div class="overlay" id="noticia1">
+    <div class="popup">
+      <h2>Acusan a Pemex de daño ecológico en lagunas de Comalcalco</h2>
+      <p>Comalcalco, Tabasco.- Habitantes de las comunidades Patastal y Pino Suárez acusan que Petróleos Mexicanos
+        (Pemex), no ha
+        resarcido el daño a cuerpos lagunas de la zona, y aunque se presentaron elementos de la empresa, estos, señalan
+        los
+        lugareños, simplemente simularon haber atendido la
+        problemática.
+        Ciudadanos de las demarcaciones antes mencionadas señalan que todo comenzó hace un par de meses, cuando en la
+        instalación Tupilco 3001 hubo un siniestro, esto provocó el derrame de petróleo, el cual abarcó un radio de tres
+        kilómetros en las orillas y dentro de las lagunas. Derivado de la expansión del crudo, no se puede realizar la
+        pesca en
+        esta zona costera.
+      </p>
+      <a href="./documentos/Acusan a Pemex de daño ecológico en lagunas de Comalcalco - El Heraldo de Tabasco _ Noticias Locales, Policiacas, sobre México, Tabasco y el Mundo.pdf"
+        download>
+        <button>Descargar PDF</button>
+      </a>
+      <button id="btn-cerrar-noticia1" class="btn-cerrar">Cerrar</button>
+    </div>
+  </div>
+  <div class="overlay" id="noticia2">
+    <div class="popup">
+      <h2>Tabasco: un paraíso que el petróleo devora</h2>
+      <p>vegetación espesa, el suelo pantanoso, lo frondoso de sus árboles frutales, los caimanes que abren las fauces a
+        la
+        orilla de las lagunas. Las piedras que las sostienen aún se siguen formando. Debajo de ese manto verde que todo
+        lo cubre
+        se esconde un tesoro que viene de otra era, cuando esto era un hervidero de minerales y bestias monumentales
+        devorándose
+        entre sí. Debajo de estas tierras, que fueron alguna vez las más fértiles, se esconde una promesa de abundancia
+        que ha
+        sido traicionada una y otra vez. Debajo de los discursos y la épica del desarrollo nacional se ha fraguado un
+        desastre
+        con muchos rostros y vertientes, y todos los caminos llevan al petróleo y a la paraestatal que lo maneja, Pemex.
+      </p>
+      <a href="./documentos" download>
+        <button>Descargar PDF</button>
+      </a>
+      <button id="btn-cerrar-noticia1" class="btn-cerrar">Cerrar</button>
+    </div>
+  </div>-->
 
   <footer>
     <nav>
       <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="proyectos.html">Proyectos</a></li>
-        <li><a href="mapa/mapa.html">Mapa</a></li>
-        <li><a href="ayuda.html">Ayuda</a></li>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="/noticias.php">Noticias</a></li>
+        <li><a href="/mapa/mapa.html">Mapa</a></li>
+        <li><a href="/ayuda.html">Ayuda</a></li>
       </ul>
     </nav>
     <div class="redes-sociales">
@@ -87,7 +193,20 @@
     <p>Cuidado del Medio Ambiente en Tabasco &copy; 2023</p>
   </footer>
 
+  <script>
+    var btnAbrir = document.getElementById("btn-abrir-noticia1");
+    var btnCerrar = document.getElementById("btn-cerrar-noticia1");
+    var overlay = document.getElementById("noticia1");
 
+    btnAbrir.addEventListener("click", function () {
+      overlay.style.display = "flex";
+    });
+
+    btnCerrar.addEventListener("click", function () {
+      overlay.style.display = "none";
+    });
+
+  </script>
 </body>
 
 </html>
